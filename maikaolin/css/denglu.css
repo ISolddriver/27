@@ -1,0 +1,40 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+body{background: #f0f0f0}
+#content{width:100%;height:736px;background: url(../img/login-reg.gif) no-repeat;position: relative;}
+.logo{width: 960px;height: 560px;margin:0 auto;}
+.login{width: 340px;height: 434px;background: rgba(255,255,255,0.6);position: absolute;top:100px;right: 10%;}
+.lgcon{width: 280px;position: absolute;top:20px;left:30px;}
+.lgcon p{margin-bottom: 10px;font-size: 12px;}
+.lgcon label{height: 40px;width:250px;margin-bottom: 30px;border: 1px solid #c5c8c6;line-height: 40px;padding-left: 5px;position: relative;display: block;}
+.lgcon i{width: 22px;height: 22px;float: left;display: block;margin-top: 8px;}
+.lgcon a{color: #fea417; margin-left: 20px;}
+.lgcon label input{height: 40px;padding-left: 10px;width: 200px;font-size: 15px;float: left;border:none;background: rgba(255,255,255,0.3);}
+.btn{width: 280px;height: 46px;border-radius: 5px;background: #d10048;text-align: center;margin-top: 20px;}
+.btn>span{line-height: 46px;color: #fff;}
+.last{width:280px;height: 40px;margin-top: 20px;}
+.last>span{line-height: 40px;color: #888;font-size: 12px;}
+#i1{background: url(../img/index.png) no-repeat -60px 2px;}
+#i2{background: url(../img/index.png) no-repeat -60px -45px;}
+#i3{width: 80px;height: 32px;background: red;}
+#ip3{width: 120px;}
+
+/*footer*/
+.f1{width:700px;height: 314px;margin:0 auto;}
+.f1-1{width: 446px;height: 117px;margin:0 auto;}
+.ff1{float: left;margin-left: 25px;margin-top: 20px;}
+.ff1>img{width: 78px;height: 78px;display: block;}
+.ff1>span{font-size: 12px;color: #888;}
+
+.f1-2{width: 700px;height: 145px;margin:0 auto;}
+.f1-2>ul{float: left;margin-left: 30px;margin-top: 30px;}
+h5{font-size: 16px;color: #888;margin-bottom: 10px;}
+.f1-2 li{font-size: 12px;color: #888;line-height: 20px;}
+.f1-2 img{display: block;height: 100px;width: 100px;}
+.f2{width: 100%;height: 103px;border-top: 1px solid #888;}
+.bto{width: 554px;height: 50px;margin:20px auto 0;text-align: center;}
+.bto ul{margin-left: 60px;}
+.bto li{float: left;font-size: 14px;color: #888;border-right: 1px solid #888;padding: 0 5px;}
+.bto p{font-size: 14px;color: #888;background: url(../img/beian.png) no-repeat;}
+
+

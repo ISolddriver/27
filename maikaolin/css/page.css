@@ -1,0 +1,21 @@
+@charset "utf-8";
+main{width: 1002px;margin: 0 auto; background:pink;}
+.wrap{width: 960px;height: 40px;margin:0 auto;border-bottom: 1px solid #888;background: #fff;}
+.wrap a{font-size:14px;color: #888;line-height: 40px;}
+.wrap2{width: 960px;height: 40px;margin:0 auto;border-bottom: 1px solid #ccc;background: #fff;}
+.wrap2 a,span{font-size:14px;color: #888;line-height: 40px;}
+.wrap2 a{margin-left: 60px;}
+.wrap3{width: 960px;height: 40px;margin:0 auto;border-bottom: 1px solid #ccc;background: #fff;}
+.wrap3 a,span{font-size:14px;color: #888;line-height: 40px;}
+.wrap3 a{margin-left: 60px;}
+
+.con ul{width: 960px;height: 40px;margin: 0 auto;background: #ccc;margin-top: 20px;}
+.con ul li{float: left;font-size: 14px;color:#fff;line-height: 40px;margin-right: 20px;}
+.con ul a{float: left;font-size: 14px;color:#fff;line-height: 40px;margin-right: 20px;}
+.items{padding-left: 20px;margin-top: 20px;}
+/*内容样式*/
+.good{width: 220px;height: 310px;position: relative;}
+.good img{width: 217px;height: 220px;display: block;border: 1px solid #FFF;margin-right: 20px;}
+.good i{font-size: 16px;color: red;font-style: normal;}
+.good b{background: url(../img/index.png) no-repeat 0 -112px;height: 30px;width: 30px;display: block;position: absolute;right: 3px;bottom:15px;}
+/*内容样式*/

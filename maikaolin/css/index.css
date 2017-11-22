@@ -1,0 +1,94 @@
+@charset "utf-8";
+*{margin: 0;padding:0;}
+ul,ol,li{list-style: none}
+a{text-decoration: none;}
+/*header*/
+body{background: #f0f0f0;}
+
+header{width: 986px;height: 70px;margin:0 auto;}
+h1{width:314px;height: 34px;display: block;margin-top: 26px;float: left;}
+.hRight{float: right;height: 36px;margin-top: 30px;}
+.hRight ul{float: left;}
+.hRight li{float: left;color:#ccc;padding-left: 5px;}
+.hRight li a{color:#888;border-right: 1px solid #888;}
+.hRight span{float: left;display: block;width: 5px;height: 32px;font-size: 16px;background: url(../img/car.jpg) no-repeat;padding-left: 30px;color: #888;margin-left: 5px;}
+
+/*banner*/
+#banner{width: 986px;height: 346px;margin:0 auto;position: relative;}
+#banner li{position: absolute;}
+#banner img{width: 986px;height: 346px;display: block;}
+#banner span{width: 30px;height: 30px;position: absolute;top: 150px;background:pink;font-size: 16px;text-align: center;line-height: 30px;opacity: 0.8;display: none;}
+#sp2{right: 0;}
+#banner i{width: 150px;height: 10px;background:#ccc;position: absolute;bottom: -10px;}
+#i1{left: 350px;}
+#i2{left:500px;}
+/*main*/
+main{width: 986px;margin: 20px auto 0 ;background: #fff;overflow: hidden;}
+.box1,.box2,.box3{width: 320px;overflow: hidden;float: left;margin-left: 5px;}
+.con1>img{width: 320px;height: 194px;}
+               /*right*/
+.conR{height: 194px;}
+.conR-L{width: 142px;height:167px;float: left;margin-left: 10px;}
+.conR-L>h2{font-size: 16px;margin-top: 20px;}
+.conR-L>p{font-size: 12px;color: #888;margin-top: 20px;line-height: 16px;}
+.conR-L>a{font-size: 14px;color: red;}
+.conR-R>img{width: 160px;height: 194px;float: left;margin-left: 8px;}
+               /*left*/
+.conL{height: 194px;}
+.conL-L>img{width: 160px;height: 194px;float: left;}
+.conL-R{width: 142px;height:167px;float: left;margin-left: 10px;}
+.conL-R>h2{font-size: 16px;margin-top: 20px;}
+.conL-R>p{font-size: 12px;color: #888;margin-top: 20px;line-height: 16px;}
+.conL-R>a{font-size: 14px;color: red;}
+			  /*big*/
+.big>img{width: 325px;height: 390px;}
+
+.box4{width: 488px;height: 195px;float: left;}
+			/*bigR*/
+.bigR{height: 195px;}
+.bigR-L{width: 154px;height:167px;float: left;margin-left: 25px;}
+.bigR-L>h2{font-size: 16px;margin-top: 20px;}
+.bigR-L>p{font-size: 12px;color: #888;margin-top: 20px;line-height: 16px;}
+.bigR-L>a{font-size: 14px;color: red;}
+.bigR-R>img{width: 295px;height: 195px;float: left;margin-left: 8px;}
+
+.box5{width: 488px;height: 195px;float: left;}
+               /*bigleft*/
+.bigL{height: 195px;}
+.bigL-L>img{width: 295px;height: 195px;float: left;}
+.bigL-R{width: 154px;height:167px;float: left;margin-left: 25px;}
+.bigL-R>h2{font-size: 16px;margin-top: 20px;}
+.bigL-R>p{font-size: 12px;color: #888;margin-top: 20px;line-height: 16px;}
+.bigL-R>a{font-size: 14px;color: red;}
+.box6{width: 488px;height: 195px;float: left;}
+.box7{width: 488px;height: 195px;float: left;}
+
+/*footer*/
+.f1{width:700px;height: 314px;margin:0 auto;}
+.f1-1{width: 446px;height: 117px;margin:0 auto;}
+.ff1{float: left;margin-left: 25px;margin-top: 20px;}
+.ff1>img{width: 78px;height: 78px;display: block;}
+.ff1>span{font-size: 12px;color: #888;}
+
+.f1-2{width: 700px;height: 145px;margin:0 auto;}
+.f1-2>ul{float: left;margin-left: 30px;margin-top: 30px;}
+h5{font-size: 16px;color: #888;margin-bottom: 10px;}
+.f1-2 li{font-size: 12px;color: #888;line-height: 20px;}
+.f1-2 img{display: block;height: 100px;width: 100px;}
+.f2{width: 100%;height: 103px;border-top: 1px solid #888;}
+.bto{width: 554px;height: 50px;margin:20px auto 0;text-align: center;}
+.bto ul{margin-left: 60px;}
+.bto li{float: left;font-size: 14px;color: #888;border-right: 1px solid #888;padding: 0 5px;}
+.bto p{font-size: 14px;color: #888;background: url(../img/beian.png) no-repeat;}
+
+
+/*nav*/
+.navL{width: 75px;background:#db366f;height: 2968px;position: absolute;left:0;top:0;text-align: center;padding-top: 30px;}
+.navL ul{position: absolute;}
+.navL li{font-size: 14px;color: #FFF;height: 44px;line-height: 44px;background: url(../img/bg.jpg) no-repeat 0 43px;}
+.navR{width: 54px;position: absolute;right: 0;top:70px;}
+.navR img{display: block;}
+.navM{width: 75px;background:#ccc;height: 600px;position: absolute;left:75px;top:0;text-align: center;padding-top: 44px;display: none;}
+.navM li{font-size: 14px;color: #888;height: 44px;line-height: 44px;background: url(../img/bg.jpg) no-repeat 0 43px ;}
+#last{display: none;}
+#kefu{position: absolute;right:48px;top:90px;display: none;}
